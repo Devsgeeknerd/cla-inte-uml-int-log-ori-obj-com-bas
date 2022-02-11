@@ -4,7 +4,7 @@
 # O que é CSS?
 
 * ***CSS***
-  * É ele quem ajusta o tamanho dos elemntos, as cores, tipo de fontes, posições e etc;.
+> É ele quem ajusta o tamanho dos elemntos, as cores, tipo de fontes, posições e etc;.
 
 <!-- TABLE OF CONTENTS -->
 ## TABELA DE CONTEÚDO
