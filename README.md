@@ -1,69 +1,41 @@
+<!-- Título -->
+# Interfaces e UML
 
+***Conteúdo da Aula:***
 
-<!-- TITLE -->
-# O que é CSS?
+Vamos imaginar a seguinte situação:
 
-* ***CSS***
-> É ele quem ajusta o tamanho dos elemntos, as cores, tipo de fontes, posições e etc;.
+* Nós temos uma classe para representar os animais, a classe `Animal`.
 
-<!-- TABLE OF CONTENTS -->
-## TABELA DE CONTEÚDO
+* Nós sabemos que, de maneira geral, todos os animais nascem, crescem, reproduzem-se e morrem.
 
-<!-- - [Vista por cima](#vista-por-cima) -->
-<!--  - [Foto da tela](#foto-da-tela) -->
-<!--  - [Links](#links) -->
-<!-- - [Meu processo](#meu-processo) -->
-<!--  - [Contruido com](#construido-com) -->
-<!--  - [O que aprendi](#o-que-aprendi) -->
-<!--  - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-<!--  - [Recusos úteis](#recursos-úteis) -->
-<!-- - [Autor](#autor) -->
-<!-- - [Agradecimentos](#agradecimentos) -->
-- [Informações](#informações)
+* Este é um comportamento padrão de todos os animais que existem na Terra.
 
-<!-- OVERVIEW -->
-<!-- ## VISTA POR CIMA -->
+* Sendo assim, precisamos ter uma maneira de forçar que as classes que representem os animais possuam os métodos em questão (`nascer`, `crescer`, `reproduzir` e `morrer`).
 
-<!-- SCREENSHOT -->
-<!-- ### FOTO DA TELA -->
+* Nós podemos fazer isso criando uma interface, que podemos chamar de `SerVivo`, por exemplo.
 
-<!-- LINKS -->
-<!-- ### LINKS -->
+* Dessa maneira, a nossa classe `Animal` implementaria a interface `SerVivo`.
 
-<!-- MY PROCESS -->
-<!-- ## MEU PROCESSO -->
+Na UML, essa relação entre a interface `SerVivo` e a classe `Animal` poderia ser representada da seguinte maneira:
 
-<!-- BUILT WITH -->
-<!-- ### CONSTRUIDO COM -->
+![Representação](https://d2v0x26thbzlwf.cloudfront.net/prod/13/img/rId16jgrcf2oq.1py.png "Relação entre a interface e a classe")
 
-<!-- WHAT I LEARNED -->
-<!-- ### O QUE APRENDI -->
+Perceba que, pelo sentido da seta tracejada (que representa a implementação da interface), indica que a classe `Animal` implementa a interface `SerVivo` e, obrigatoriamente, a classe `Animal` terá os métodos `nascer`, `crescer`, `reproduzir` e `morrer`.
 
-<!-- CONTINUED DEVELOPMENT -->
-<!-- ### DESENVOLVIMENTO CONTÍNUO -->
+<!-- Informações -->
+## &#8505; Informações
 
-<!-- USEFUL RESOURCES -->
-<!-- ### RECURSOS ÚTEIS -->
-
-<!-- AUTHOR -->
-<!-- ## AUTOR -->
-
-<!-- ACKNOWLEDGMENTS -->
-<!-- ## AGRADECIMENTOS -->
-
-<!-- INFORMATION -->
-## INFORMAÇÕES
-
-![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fo-que-e-css&label=Visitantes&labelColor=%23f9e64f&countColor=%23008000&style=plastic "Total de Visitas")
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Devsgeeknerd%2Fcla-int-uml-int-log-ori-obj-com-bas&label=Visitantes&labelColor=%23700070&labelStyle=none&countColor=%23000fff&style=plastic&color=%23ffffff "Total de Visitantes")
 &nbsp;
-![followrs](https://img.shields.io/github/followers/Devsgeeknerd?style=plastic&label=SEGUIDORES&labelColor=f9e64f "Total de Seguidores")
+![Followers](https://img.shields.io/github/followers/Devsgeeknerd?style=p&label=Seguidores&labelColor=800080&color=000fff "Total de Seguidores")
 &nbsp;
-![watchers](https://img.shields.io/github/watchers/Devsgeeknerd/o-que-e-css?style=plastic&label=OBSERVADORES&labelColor=f9e64f "Total de Observadores")
+![Watchers](https://img.shields.io/github/watchers/Devsgeeknerd/cla-int-uml-int-log-ori-obj-com-bas?style=p&label=Observadores&labelColor=800080&color=000fff "Total de Observadores")
 &nbsp;
-![stars](https://img.shields.io/github/stars/Devsgeeknerd/o-que-e-css?style=plastic&label=ESTRELAS&labelColor=f9e64f "Total de Estrelas Recebidas")
+![Stars](https://img.shields.io/github/stars/Devsgeeknerd/cla-int-uml-int-log-ori-obj-com-bas?style=p&label=Estrelas&labelColor=800080&color=000fff "Total de Estrelas")
 &nbsp;
-![forks](https://img.shields.io/github/forks/Devsgeeknerd/o-que-e-css?style=plastic&label=BIFURCAÇÕES&labelColor=f9e64f "Total de Bifurcações")
+![Forks](https://img.shields.io/github/forks/Devsgeeknerd/cla-int-uml-int-log-ori-obj-com-bas?style=p&label=Bifurcações&labelColor=800080&color=000fff "Total de Bifurcações")
 &nbsp;
-![repo size](https://img.shields.io/github/repo-size/Devsgeeknerd/o-que-e-css?style=plastic&label=TAMANHO&labelColor=f9e64f "Tamanho do Repositório")
+![Repo Size](https://img.shields.io/github/repo-size/Devsgeeknerd/cla-int-uml-int-log-ori-obj-com-bas?style=p&label=Tamanho&labelColor=800080&color=000fff "Tamanho do Repositório")
 &nbsp;
-![license](https://img.shields.io/github/license/Devsgeeknerd/o-que-e-css?style=plastic&label=LICENÇA&labelColor=f9e64f "Licença do Repositório")
+![License](https://img.shields.io/github/license/Devsgeeknerd/cla-int-uml-int-log-ori-obj-com-bas?style=p&label=Licença&labelColor=800080&color=000fff "Licença do Repositório")
